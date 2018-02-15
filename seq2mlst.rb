@@ -5,7 +5,7 @@ class Seq2mlst < Formula
   sha256 "2e6b7fce6b1cd7383876bd36dca773dd67811dd391d4b7e17bb5bf35f49af9eb"
   version "1.0.0"
   
-  depends_on :python
+  depends_on "python"
   depends_on "blast"
   depends_on "spades"
   depends_on "sratoolkit"
