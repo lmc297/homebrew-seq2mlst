@@ -24,9 +24,9 @@ class Seq2mlst < Formula
     ENV.prepend "PYTHONPATH", libexec/"src", ':'
     puts "done with env"
     # for python_package in ["biopython"]
-    resource("biopython").stage do
-      system "python", *Language::Python.setup_install_args(libexec)
-    end
+    #resource("biopython").stage do
+    #  system "python", *Language::Python.setup_install_args(libexec)
+    #end
 
 
   end
