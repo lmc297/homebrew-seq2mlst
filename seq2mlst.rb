@@ -2,7 +2,7 @@ class Seq2mlst < Formula
   desc "A command line tool for performing in silico multi-locus sequence typing (MLST) using bacterial genomic data"
   homepage "https://github.com/lmc297/seq2mlst/"
   url "https://github.com/lmc297/seq2mlst/raw/master/archive/seq2mlst-1.0.1.tar.gz"
-  sha256 "2e6b7fce6b1cd7383876bd36dca773dd67811dd391d4b7e17bb5bf35f49af9eb"
+  sha256 "73b469e078212f60f85b86ae9bab62ef962c70ca133fa3a0df1c8af6ac6be33c"
   version "1.0.1"
   
   depends_on "python"
